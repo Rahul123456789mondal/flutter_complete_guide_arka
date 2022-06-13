@@ -20,8 +20,7 @@ jobs:
       - run: flutter format --set-exit-if-changed .
       - run: flutter analyze .
       - run: flutter build apk
-        with:
-          name: release-apk
+      
           
   build:
     runs-on: ubuntu-latest
